@@ -1,10 +1,19 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
-  padding: 6rem;
+  padding: 1rem;
   min-height: 100vh;
+}
+
+.pre {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: pre-wrap; /* 줄바꿈과 공백을 유지 */
+  word-wrap: break-word; /* 긴 단어가 줄바꿈되도록 설정 */
 }
 
 .description {
